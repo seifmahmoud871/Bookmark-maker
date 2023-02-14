@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="py-5">
+      <h2 class="gray">Bookmarker</h2>
+    </header>
+
+    <div class="main border-1 border-bottom border-top border-dark">
+      <div class="bookform bg-gray my-4 py-3 px-2">
+        <div class="content text-center m-auto p-3 w-75">
+          <h3 class="py-3 fw-bold">Bookmark your favorite sites</h3>
+          <label for="" class="fw-bold">Site Name</label>
+          <input type="text" class="form-control my-3" id="siteName" placeholder="Bookmarker Name">
+          <p class="alert alert-danger"></p>
+          <label for="" class="fw-bold">Site URL</label>
+          <input type="url" class="form-control my-3" id="siteUrl" placeholder="Website URL">
+          <p class="alert alert-danger"></p>
+          <button class="border-0 py-2 px-4 rounded bg-blue" onclick="addProduct()">Submit</button>
+        </div>
+
+      </div>
+
+      <div class="table">
+
+        <table class="table mt-4">
+          <thead>
+
+          </thead>
+          <tbody id="tableRow">
+
+          </tbody>
+        </table>
+
+
+      </div>
+    </div>
+    <p class="gray fw-bold py-4">© 2019 Bookmarker Inc.</p>
+
+  </div>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
